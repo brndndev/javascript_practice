@@ -1,0 +1,42 @@
+Read	
+
+Write	
+
+Execute	
+
+Need to use ls -l (long listing) to see permissions of a file
+Dog tags
+
+These three characters pertains to the user persons
+
+1st three Owner of file
+
+2nd three User / Group of file
+
+3rd set everyone else
+￼
+
+Values
+
+R = 4
+
+W = 2
+
+X = 1
+
+Permissions expressed in a 3 number format (ex. 755)
+
+444 = Owner, User, and World can read this file
+
+755 = Owner can R/W/X
+	   User can R/X
+	   World can R/X
+
+
+How do you change owners in a group?
+
+chown user:group file	
+
+Only one owner per file
+
+￼
